@@ -1,6 +1,10 @@
 # Project_Planner
 Project Planner
 
+### End points
+GET, POST: /users
+PATCH, DELETE: /users/:id
+
 
 ### Todo list
 * Add new product via scanning/taking an image of said product
