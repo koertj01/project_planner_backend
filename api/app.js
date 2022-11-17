@@ -13,6 +13,7 @@ const app = express()
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
+//define routes
 const product = require('./routes/product.route');
 app.use('/products', product);
 
