@@ -17,3 +17,14 @@ PATCH, DELETE: /users/:id
 * Add controller for Push Notifications should only 'GET' 
 * Twilio
 * Could just have the app send an email with an update on all things within a set of rules IE: these items will expire in 2days etc
+
+
+console.log('%c Error %s', 'font-size: 24px; color: white; background: purple; border-radius: 5px', "Code: 404");
+
+console.log('%c Success %s', 'font-size: 24px; color: white; background: dodgerblue; border-radius: 5px', "Code: 200");
+
+console.log('%c Success %s', 'font-size: 24px; color: white; background: forestgreen; border-radius: 5px', "Code: 200");
+
+console.log('%c Error %s', 'font-size: 24px; color: white; background: crimson; border-radius: 5px', "Code: 404");
+
+console.log('%c Warning %c %s', 'font-size: 24px; color: teal; background: yellow; border-radius: 5px', 'font-size: 18px; background: white; color: black',"Some Things Could not be loaded");
